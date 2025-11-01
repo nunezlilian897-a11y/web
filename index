@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenido a mi portafolio ANA LOPEZ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2>¡Hola! Bienvenidos a mi portafolio digital</h2>
+    <nav>
+      <ul>
+        <li><a href="#informacion"><img src="img/info.png" alt=""> Información</a></li>
+        <li><a href="#invitaciones"><img src="img/invitacion.png" alt=""> Invitaciones</a></li>
+        <li><a href="#ilustraciones"><img src="img/ilustracion.png" alt=""> Ilustraciones</a></li>
+        <li><a href="#animaciones"><img src="img/animacion.png" alt=""> Animaciones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h1 class="nombre">Ana Lopez</h1>
+      <img src="img/miedo.png" alt="Eso que tanto buscas está al otro lado del miedo" class="imagen-principal">
+    </section>
+
+    <section id="contactos">
+      <h3>Contactos</h3>
+      <p>Puedes comunicarte conmigo a través de mis redes sociales o correo.</p>
+      <div class="redes">
+        <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="img/behance.png" alt="Behance"></a>
+        <a href="#"><img src="img/gmail.png" alt="Correo"></a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
